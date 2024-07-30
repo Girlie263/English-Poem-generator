@@ -1,0 +1,52 @@
+body{
+    background-color: #eae9e8;
+    font-family:  Helvetica,Ariel, sans-serif;
+}
+.container{
+    max-width: 600px;
+    margin: 120px auto;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.topic{
+    width: 80%;
+    padding: 10px;
+    border-radius: 35px;
+    border: 1px solid #c2c0c0;
+    font-size: 15px;
+    line-height: 20px;
+}
+.submit-btn{
+    padding: 12px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: blue;
+}
+.poem{
+    line-height: 2;
+    font-size: 15px;
+    border-left: 5px solid blue;
+    background-color: white;
+    padding: 28px;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+    color: rgb(102, 101, 101);
+}
+a{
+    color: blue;
+}
