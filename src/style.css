@@ -11,12 +11,23 @@ h1{
     font-weight: 700;
 
 }
-form{
+
+.form-container{
     background-color: white;
     padding: 20px;
     border-radius: 5px;
-    display: flex;
     margin-bottom: 30px;
+
+}
+form{
+    display: flex;
+}
+.hint{
+    line-height: 1.5;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 5px;
+
 }
 .topic{
     width: 80%;
@@ -25,6 +36,9 @@ form{
     border: 1px solid #c2c0c0;
     font-size: 15px;
     line-height: 20px;
+}
+.hidden{
+    display: none;
 }
 .submit-btn{
     padding: 12px;
