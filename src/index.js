@@ -26,11 +26,6 @@ function generatePoem(event){
     poemElement.classList.remove("hidden");
     poemElement.innerHTML = `Generating an Italian poem about ${instrunctionInput.value}...`
 
-
-    console.log("Generating poem")
-    console.log(`Prompt: ${prompt}`);
-    console.log(`Context:${context}`);
-
     axios.get(apiUrl).then(displayPoem)
 
 };
